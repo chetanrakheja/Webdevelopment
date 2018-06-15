@@ -1,0 +1,173 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+	}
+
+.navbar{
+	z-index: 20;
+	
+}
+div{
+	display: block;
+}
+.body-container .bg-img-wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 73px;
+	width: 100%;
+    right: auto;
+    bottom: 0;
+    left: auto;
+	z-index: 1
+}
+.course-dropdown,.programss-dropdown{
+	width: 950px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+/*	right: 1*/
+/*
+	left: 1px;
+	top: 125px;*/
+}
+
+
+.body-container .body-content {
+
+	
+	
+    max-width: 400px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    padding: 0 18px 20px;
+    z-index: 15;
+/*    text-align: left;*/
+
+}
+
+.container-search{
+	background-color: lightskyblue;
+	width: 100%;
+	position: relative;
+    top: 100px;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    padding: 0 18px 20px;
+    z-index: 15;
+}
+
+.inline-search-container  {
+    margin: 6px 0;
+    padding: 10px 65px 10px 20px;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #d6dbe0;
+    border-radius: 25px;
+    font-size: 1.25em;
+	display: flex;}
+
+
+.inline-search-container .inline-search {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    transition: unset;
+    height: 48px;
+}
+
+.subjects-list {	
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+/*    flex-direction: row;*/
+}
+.popular-subjects{
+	  margin-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px;
+}
+
+.btn-sub
+{
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+
+.edxf{
+	border-right: 2px dashed lightgrey;
+}
+
+.social{
+	list-style-type: none;
+	font-size: 30px;
+	display: inline-flex;
+	margin: 10px;
+}
+.s_icon{
+	margin-left: 10px;
+}
+.app-download{
+	list-style-type: none;
+	display: inline-flex;
+}
+.app-down-list{
+	margin-right: 10px;
+}
+
+.dropdown-header{
+	font-size: 2em;
+}
+
+.about-links{
+	text-decoration: none;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 15px; 
+	margin-left: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
